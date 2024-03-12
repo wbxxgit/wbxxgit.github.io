@@ -1,4 +1,7 @@
-- title: Blog
+- title: 博客
   url: /
-- title: About
+- title: 分类
+  url: /tags/
+- title: 说明
   url: /about/
+
