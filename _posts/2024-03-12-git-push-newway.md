@@ -6,6 +6,12 @@ tags: git使用
 
 新方式说明，使用token。
 
+github上建立空仓库，仓库示例名：账户名.github.io
+
+![img](/assets/images/github-newRep.png)
+
+![img](/assets/images/github-newRep.png)
+
 ##### 1、设置
 
 ```

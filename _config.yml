@@ -5,6 +5,7 @@ url: https://vszhub.github.io
 avatar: /avatar-g.jpeg
 paginate: 5
 permalink: pretty
+#permalink: /posts:year-:month-:day-:title.html
 cover_image: /bg-g.jpeg
 
 # Gems
