@@ -1,15 +1,15 @@
-- title: Email
-  url: mailto://syrdja-bida@qq.com
-  icon: fas fa-envelope
 - title: 博客园
   url: https://www.cnblogs.com/xjxlb
   icon: fab fa-reddit
-- title: 微信
-  url: Wechat:329744064
-  icon: fab fa-weixin
-- title: GitHub
-  url: https://github.com/wbxxgit
-  icon: fab fa-github
 - title: Gitee
   url: https://gitee.com/wu-bin_dx
   icon: fab fa-git
+- title: GitHub
+  url: https://github.com/wbxxgit
+  icon: fab fa-github
+- title: 微信
+  url: Wechat:329744064
+  icon: fab fa-weixin
+- title: Email
+  url: mailto://syrdja-bida@qq.com
+  icon: fas fa-envelope
