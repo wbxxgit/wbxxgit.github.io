@@ -1,6 +1,15 @@
 - title: Email
-  url: mailto://vszhub@gmail.com
+  url: mailto://syrdja-bida@qq.com
   icon: fas fa-envelope
-- title: Twitter
-  url: https://twitter.com/vszhub
-  icon: fab fa-twitter
+- title: 博客园
+  url: https://www.cnblogs.com/xjxlb
+  icon: fab fa-snapchat-ghost
+- title: 微信
+  url: Wechat:329744064
+  icon: fab fa-weixin
+- title: GitHub
+  url: https://github.com/wbxxgit
+  icon: fab fa-github
+- title: Gitee
+  url: https://gitee.com/wu-bin_dx
+  icon: fab fa-gitlab
