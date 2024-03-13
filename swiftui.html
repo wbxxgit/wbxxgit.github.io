@@ -1,15 +1,26 @@
----
-layout: category
-title: SwiftUI
-info: 本专栏存放的是 Swift/SwiftUI 相关内容的笔记、问题及其解决方案
----
-
-{% for blog in site.blogs %}
-    {% if blog.category == "SwiftUI" %}
-        <li>
-            <h2><a class="blog" href="{{ blog.url }}">{{ blog.title }}</a></h2>
-            <p class="info">{{ blog.date | date: "%Y-%m-%d" }}</p>
-            {{ blog.excerpt }}
-        </li>
-    {% endif %}
-{% endfor %}
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>我的网站</title>
+    <link rel="stylesheet" href="/assets/font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <h1>欢迎来到我的网站！</h1>
+    
+    <p>这是一个简单的HTML页面。</p>
+    
+    <ul>
+        <li><a href="#">首页</a></li>
+        <li><a href="#">关于我们</a></li>
+        <li><a href="#">产品</a></li>
+        <li><a href="#">联系我们</a></li>
+    </ul>
+    
+    <img src="image.jpg" alt="图片"><br>
+    <i class="fa fa-car"></i>
+    <i class="fa fa-share"></i>
+    <i class="fa fa-camera-retro"></i>
+    <footer>版权所有 &copy; 2023</footer>
+</body>
+</html>

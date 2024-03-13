@@ -3,7 +3,7 @@
   icon: fas fa-envelope
 - title: 博客园
   url: https://www.cnblogs.com/xjxlb
-  icon: fab fa-snapchat-ghost
+  icon: fab fa-reddit
 - title: 微信
   url: Wechat:329744064
   icon: fab fa-weixin
@@ -12,4 +12,4 @@
   icon: fab fa-github
 - title: Gitee
   url: https://gitee.com/wu-bin_dx
-  icon: fab fa-gitlab
+  icon: fab fa-git
