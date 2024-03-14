@@ -1,3 +1,6 @@
+- type: home
+  title: 首页
+  url: /
 - type: tags
   title: 标签
   url: /tags/
@@ -7,4 +10,6 @@
 - type: categories
   title: 分类
   url: /categories/
-
+- type: testpage
+  title: 测试
+  url: ./swiftui.html
