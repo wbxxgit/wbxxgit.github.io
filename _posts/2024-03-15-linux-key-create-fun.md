@@ -20,8 +20,6 @@ https://blog.csdn.net/Lid_23/article/details/132036106
 
 #### 三、示例代码
 
-##### 
-
 ```
 #include <stdio.h>
 #include <stdlib.h>
@@ -76,5 +74,19 @@ int main() {
     return 0;
 }
 
+```
+
+##### 调试
+
+```
+gcc main.c -lpthread
+
+my@my-virtual-machine:~/project/sig2/key_create$ ./a.out
+Thread ID: 2551236352
+Print Thread ID: 2551236352
+Free thread-specific data
+Thread ID: 2542843648
+Print Thread ID: 2542843648
+Free thread-specific data
 ```
 
