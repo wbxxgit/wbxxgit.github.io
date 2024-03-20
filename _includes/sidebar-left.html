@@ -1,5 +1,47 @@
 <header class="masthead">
   <link rel="stylesheet" href="/assets/font-awesome-4.7.0/css/font-awesome.min.css">
+  
+  <style>
+    .arrow{
+        border: 50px solid transparent;
+        border-bottom-color: #3DA0DB;
+        width: 0px;
+        height: 0px;
+        top:0px
+    }
+    .stick{
+        width: 8px;
+        height: 14px;
+        border-radius: 1px;
+        background-color: #3DA0DB;
+        top:15px;
+    }
+    #back_top{ 
+      display:block;  
+      width:60px; 
+      height:60px;
+      position:fixed;  
+      bottom:50px;  
+      right:40px; 
+      border-radius:10px 10px 10px 10px;   
+      text-decoration:none;  
+      display:none;  
+      background-color:#999999;     
+      }
+    .button-3d-1{
+      position: relative;
+      border-radius:5px;
+      background: rgb(139, 221, 186);
+      border: none;
+      color: white;
+      padding: 6px 10px;
+      font-size: 0.8rem;
+      outline: none;
+      <!-- box-shadow: -6px 6px 0 hsl(190, 74%, 68%); -->
+    }
+</style>
+
+  
   {% if site.avatar -%}
     <div class="avatar">
       {%- if site.avatar contains "://" -%}
@@ -42,4 +84,15 @@
       </ul>
     </div>
   {%- endif %}
+ 
+  <button onclick="geek()" class="button-3d-1">返回顶部</button>
+ 
 </header>
+
+<script>
+  function geek() { 
+    //Scrolling the document to position "250"  
+    //horizontally and "110" vertically 
+    window.scrollTo(0, 0);
+  } 
+</script>
