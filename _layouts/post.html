@@ -53,7 +53,20 @@ layout: default
 </aside>
 {% endif %}
 
-
+<div id="gitmentContainer"></div>
+<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+var gitment = new Gitment({
+    owner: 'wbxxgit',
+    repo: 'https://github.com/wbxxgit/wbxxgit.github.io',
+    oauth: {
+        client_id: 'Ov23liSrPmrJpwRQx9IH',
+        client_secret: 'a3ac215746b95ba4e636a46917dc25a87e71f5d9',
+    },
+});
+gitment.render('gitmentContainer');
+</script>
 
 
 
