@@ -52,7 +52,7 @@ layout: default
   </ul>
 </aside>
 {% endif %}
-
+<!--
 <div id="gitmentContainer"></div>
 <link rel="stylesheet" href="https://jjeejj.github.io/css/gitment.css">
 <script src="https://www.wenjunjiang.win/js/gitment.js"></script>
@@ -67,6 +67,20 @@ var gitment = new Gitment({
 });
 gitment.render('gitmentContainer');
 </script>
-
-
+-->
+<div id="container"></div>
+<link rel="stylesheet" href="https://jjeejj.github.io/css/gitment.css">
+<script src="https://jjeejj.github.io/js/gitment.js"></script>
+<script>
+var gitment = new Gitment({
+  id: '\{\{ page.date \}\}', 
+  owner: 'wbxxgit', 
+  repo: 'wbxxgit.github.io', 
+  oauth: {
+    client_id: 'Ov23liSrPmrJpwRQx9IH', 
+    client_secret: 'a3ac215746b95ba4e636a46917dc25a87e71f5d9',
+  },
+})
+gitment.render('container')
+</script>
 
